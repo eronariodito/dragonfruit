@@ -98,8 +98,8 @@ export default function HomePage() {
         </div>
       </div>
       <div ref={myRef} className="h-16 top-[calc(100vh-64px)] absolute"></div>
-      <div className="bg-white text-gray-600 font-normal mx-28">
-        <p className="text-4xl font-semibold mx-auto w-full text-center pt-10 pb-6">
+      <div className="bg-white text-gray-600 font-normal mx-4 lg:mx-28">
+        <p className="text-2xl lg:text-4xl font-semibold mx-auto w-full text-center pt-10 pb-6">
           Our Technology
         </p>
         <div className=" space-y-12 lg:space-y-12">
@@ -108,7 +108,7 @@ export default function HomePage() {
               <p className="text-green-600 text-3xl font-semibold pb-6">
                 Getting lost in the weeds while starting your vertical farm?
               </p>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 Dragon Fruit has you covered. We provide an automated solution
                 for keeping your crops in the optimal environment
               </p>
@@ -133,12 +133,12 @@ export default function HomePage() {
               <p className="text-green-600 text-3xl font-semibold pb-6">
                 Sensors
               </p>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 All change starts with awareness. For each aspect of the
                 environment you will be needing an appropriate sensor to detect
                 it.
               </p>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 Does your vertical farm already contain all sensors for the
                 parameters you want to control? Then our system is ready to be
                 connected to them. Are there still sensors on your wishlist?
@@ -149,11 +149,11 @@ export default function HomePage() {
                 Actuators
               </p>
 
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 It is one thing to know what is wrong; it is another to do
                 something about it.
               </p>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 Humidity too low? Our system will activate the humidifier
                 without you needing to guide it. Nutrient levels are off? Dragon
                 Fruit has got it covered. Temperature too high? No sweat.
@@ -167,7 +167,7 @@ export default function HomePage() {
                 Agathos
               </p>
 
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 If the sensors are the eyes and the actuators are the muscles,
                 then Agathos is the brain of your farm. Sensing data is taken
                 and Agathos automatically decides if and when action needs to be
@@ -188,12 +188,12 @@ export default function HomePage() {
                 Agathos Interface
               </p>
 
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 As a vertical farm owner, you have more than enough tasks to
                 fill your day. Agathos takes over the tedious task of turning
                 knobs all day.
               </p>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 Do you not agree with its actions? Initialize and change its
                 behavior with the simple click of a button. The easy-to-use
                 Agathos Interface allows you to set up and change environment

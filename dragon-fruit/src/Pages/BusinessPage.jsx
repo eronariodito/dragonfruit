@@ -16,7 +16,7 @@ export default function BusinessPage() {
             <p className="md:pt-4 text-xl md:text-3xl">
               Growing your plants and our business
             </p>
-            <p className="pt-2 text-base md:text-lg">
+            <p className="pt-2 text-base md:text-base lg:text-lg">
               Your partner in environmental control needs to be strong and
               healthy. Here is how we ensure our business thrives in uncertain
               times.
@@ -24,7 +24,7 @@ export default function BusinessPage() {
           </div>
         </div>
       </div>
-      <div className="mx-28 pt-10 text-gray-600">
+      <div className="mx-4 lg:mx-28 pt-10 text-gray-600">
         <p className="text-4xl font-semibold mx-auto w-full text-center pb-6">
           Our Business Model Canvas
         </p>

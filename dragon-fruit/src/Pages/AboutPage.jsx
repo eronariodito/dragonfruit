@@ -32,7 +32,7 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="mx-28 pt-10 text-gray-600">
+      <div className="mx-4 lg:mx-28 pt-10 text-gray-600">
         <div className="grid grid-cols-1 md:grid-cols-3">
           <div className="flex flex-col items-center justify-center align-middle pb-10 md:pb-0">
             <img

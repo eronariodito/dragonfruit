@@ -34,7 +34,7 @@ export default function SDGPage() {
           </a>
         </p>
       </div>
-      <div className="mx-28 text-gray-600">
+      <div className="mx-4 lg:mx-28 text-gray-600">
         {/* <p className="text-4xl font-semibold mx-auto w-full text-center ">
           Towards a Sustainable Future
         </p> */}
