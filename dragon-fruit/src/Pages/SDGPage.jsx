@@ -38,7 +38,7 @@ export default function SDGPage() {
         {/* <p className="text-4xl font-semibold mx-auto w-full text-center ">
           Towards a Sustainable Future
         </p> */}
-        <div className="flex w-full justify-center">
+        <div className="flex w-full justify-center pt-10">
           <img
             className="w-[100%] md:w-[80%] rounded-lg object-cover object-center "
             src={poster}

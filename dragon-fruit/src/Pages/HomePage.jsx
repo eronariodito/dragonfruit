@@ -98,7 +98,7 @@ export default function HomePage() {
         </div>
       </div>
       <div ref={myRef} className="h-16 top-[calc(100vh-64px)] absolute"></div>
-      <div className="bg-white text-gray-600 font-normal mx-4 lg:mx-28">
+      <div className="text-gray-600 font-normal mx-4 lg:mx-28">
         <p className="text-2xl lg:text-4xl font-semibold mx-auto w-full text-center pt-10 pb-6">
           Our Technology
         </p>
