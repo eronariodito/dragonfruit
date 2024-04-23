@@ -220,7 +220,7 @@ export default function BusinessPage() {
               customer service.
             </p>
           </div>
-          <div className="text-left space-y-2">
+          <div className="text-left space-y-2 pb-10">
             <p className="text-green-600 text-3xl font-semibold pb-4">
               Eco-Social Cost
             </p>

@@ -167,7 +167,7 @@ export default function AboutPage() {
               solution that delivers real results.
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center align-middle pb-10 md:pb-0">
+          <div className="flex flex-col items-center justify-center align-middle pt-10 md:pt-0">
             <img
               className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
               src={image3}

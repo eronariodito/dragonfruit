@@ -1,26 +1,20 @@
 import { useState } from "react";
-import image1 from "../Assets/Real Time.png";
-import { ChevronLeft } from "lucide-react";
+import image1 from "../Assets/Home.png";
+import image2 from "../Assets/Real Time.png";
+import image3 from "../Assets/Historical.png";
+import image4 from "../Assets/Export.png";
+import Carousel from "./Carousel";
 
 export default function ImageSlider() {
-  const slides = [
-    {
-      url: image1,
-    },
-    {
-      url: image1,
-    },
-    {
-      url: image1,
-    },
-  ];
+  const slides = [image1, image2, image3, image4];
 
   return (
-    <div>
-      <div
-        style={{ backgroundImage: `url($slides[0].url})` }}
-        className="w-full h-full rounded-lg bg-center bg-cover duration-500"
-      ></div>
+    <div className="lg:w-[70%]">
+      <Carousel>
+        {slides.map((s) => (
+          <img src={s} />
+        ))}
+      </Carousel>
     </div>
   );
 }

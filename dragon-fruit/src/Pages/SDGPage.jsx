@@ -46,7 +46,7 @@ export default function SDGPage() {
           />
         </div>
         <div className="grid md:grid-cols-1 pt-10 gap-x-9 gap-y-10">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="flex flex-col justify-center h-full col-span-2 space-y-4">
               <div className="text-left space-y-2">
                 <p className="text-green-600 text-3xl font-semibold pb-4">
@@ -98,7 +98,7 @@ export default function SDGPage() {
               />
             </div>
           </div>
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="flex flex-col items-center justify-center align-middle pb-10 md:pb-0">
               <img
                 className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
@@ -139,7 +139,7 @@ export default function SDGPage() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3 pb-0 lg:pb-10">
             <div className="flex flex-col justify-center h-full col-span-2 space-y-4">
               <div className="text-left space-y-2">
                 <p className="text-green-600 text-3xl font-semibold pb-4">
@@ -175,7 +175,7 @@ export default function SDGPage() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center align-middle pb-10 md:pb-0">
+            <div className="flex flex-col items-center justify-center align-middle pt-5 pb-10 lg:pb-0 lg:pt-0">
               <img
                 className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
                 src={image4}

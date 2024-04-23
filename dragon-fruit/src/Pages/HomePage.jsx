@@ -203,7 +203,7 @@ export default function HomePage() {
             </div>
           </div>
           <div>
-            <div className="flex align-middle justify-center items-center">
+            <div className="flex align-middle justify-center items-center pb-10">
               {/* <img
                 className="lg:h-[calc(0.7*100vh)] rounded-lg object-cover object-center border-2"
                 src={image4}
