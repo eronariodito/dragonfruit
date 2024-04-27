@@ -228,7 +228,7 @@ export default function ReportPage() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3 pb-10">
             <div className="flex flex-col justify-center h-full col-span-1 space-y-4">
               <div className="text-left space-y-2">
                 <p className="text-green-600 text-3xl font-semibold pb-4">
@@ -263,95 +263,6 @@ export default function ReportPage() {
                 src={image6}
                 alt="Sensors"
               />
-            </div>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3">
-            <div className="flex flex-col items-center justify-center align-middle pb-10 lg:pb-0">
-              <img
-                className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center aspect-[1/1] lg:aspect-[9/12]"
-                src={image7}
-                alt="Sensors"
-              />
-            </div>
-            <div className="flex flex-col justify-center h-full col-span-2 space-y-4">
-              <div className="text-left space-y-2">
-                <p className="text-green-600 text-3xl font-semibold pb-4">
-                  Competitors
-                </p>
-                <p>
-                  There exist several companies with similar products to ours.
-                  The most prevalent of these is Vertikit. They provide a
-                  control system similar to Agathos. However, their system
-                  depends on their in-house 4-in-1 sensors. These cost a lot of
-                  money and don’t efficiently scale. When your farm requires
-                  more light sensors, Vertikit requires you to buy additional
-                  sensors that measure other metrics too. This can be a waste of
-                  money if more of these other sensors aren’t necessary.
-                  Moreover, if a new sensor enters the market, users of Vertikit
-                  will not get these benefits, as they are stuck to the sensors
-                  used within this company.
-                </p>
-                <p>
-                  At Dragon Fruit, on the other hand, sensors can be connected
-                  and switched in a plug-and-play manner. When new developments
-                  hit the market, we support our customers switching to embrace
-                  these changes. In fact, Agathos is designed to do so. When you
-                  feel like a certain kind of sensor needs to be scaled up, this
-                  is entirely possible without using other sensors too.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 pb-8">
-            <div className="flex flex-col justify-center h-full col-span-3 space-y-4">
-              <div className="text-left lg:text-center space-y-2">
-                <p className="text-green-600 text-3xl font-semibold pb-4">
-                  Future Developments and Our Strategies
-                </p>
-                <p>
-                  As discussed before, one development that could disrupt this
-                  industry is the development of next-level sensors. These could
-                  be so beneficial to vertical farms that they decide to replace
-                  all their current sensors with these. A company that depends
-                  on previous sensors for their product to function will be in
-                  trouble in this case, as they cannot necessarily pivot quickly
-                  to use these new sensors. To prevent this from happening to
-                  Dragon Fruit, we focus on designing Agathos to be as modular
-                  as possible. Our plug-and-play solution will allow
-                  communication with virtually any type of sensor, which not
-                  only protects us from this potential threat, but actually
-                  makes us a more attractive option for vertical farms with the
-                  future in mind.
-                </p>
-                <p>
-                  With the advancement of AI will come a generation of new
-                  technology with the potential to disrupt. We want to embrace
-                  this, which is why one of the development goals of Dragon
-                  Fruit is to integrate learning algorithms into our products.
-                  Imagine an environmental controller that can make minor
-                  adjustments, measure the effects those changes have on crop
-                  growth, and as such learn the optimal conditions for different
-                  kinds of plants without any human intervention.
-                </p>
-                <p>
-                  Climate change is another major issue within the agricultural
-                  sector. If temperatures start to rise, then current growth
-                  recipes might need to be changed. Spikes in popularity for
-                  certain crops also play a part in this. If there is a high
-                  demand for certain fruits or vegetables that a company is not
-                  currently growing, then they will need to do much research and
-                  hire professionals in order to get new growth recipes for
-                  these crops. Both of these problems are solved by the
-                  community-driven approach which is one of Dragon Fruit’s
-                  milestones. We aim to create a community of farmers who can
-                  share their knowledge in the sector with each other, so that
-                  they can all benefit from it. If a farmer does not know how to
-                  grow a crop, then another farmer in the community can help
-                  them out by sharing their experiences. Along with solving this
-                  problem, this will also lead to a dedicated customer base, and
-                  will make Dragon Fruit’s name into an industry standard.
-                </p>
-              </div>
             </div>
           </div>
         </div>

@@ -49,6 +49,16 @@ export default function Navbar() {
           </li>
           <li className="hover:text-green-500 h-full">
             <NavLink
+              to="/market"
+              className={({ isActive }) =>
+                isActive ? "text-green-500" : "inactive"
+              }
+            >
+              <button className="h-full">Market</button>
+            </NavLink>
+          </li>
+          <li className="hover:text-green-500 h-full">
+            <NavLink
               to="/sdg"
               className={({ isActive }) =>
                 isActive ? "text-green-500" : "inactive"
@@ -119,6 +129,18 @@ export default function Navbar() {
           >
             <button className="w-full h-full py-2 hover:bg-slate-100">
               Business
+            </button>
+          </NavLink>
+        </li>
+        <li className="hover:text-green-500 hover:bg-gray-100">
+          <NavLink
+            to="/market"
+            className={({ isActive }) =>
+              isActive ? "text-green-500" : "inactive"
+            }
+          >
+            <button className="w-full h-full py-2 hover:bg-slate-100">
+              Market{" "}
             </button>
           </NavLink>
         </li>

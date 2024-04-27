@@ -6,6 +6,7 @@ import Navbar from "./Component/Navbar";
 import SDGPage from "./Pages/SDGPage";
 import BusinessPage from "./Pages/BusinessPage";
 import ReportPage from "./Pages/ReportPage";
+import MarketPage from "./Pages/MarketPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/sdg" element={<SDGPage />} />
         <Route path="/business" element={<BusinessPage />} />
         <Route path="/journey" element={<ReportPage />} />
+        <Route path="/market" element={<MarketPage />} />
       </Routes>
     </>
   );

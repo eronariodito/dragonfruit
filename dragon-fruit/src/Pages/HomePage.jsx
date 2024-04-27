@@ -3,7 +3,7 @@ import Video from "../Assets/DragonFruitHeader.m4v";
 import { useRef } from "react";
 import image1 from "../Assets/Homepage1.jpg";
 import image2 from "../Assets/Homepage 2.jpg";
-import image3 from "../Assets/homepage3.png";
+import image3 from "../Assets/Homepage3.jpeg";
 import image4 from "../Assets/Real Time.png";
 import ImageSlider from "../Component/ImageSlider";
 import { Link } from "react-router-dom";
@@ -114,11 +114,20 @@ export default function HomePage() {
               </p>
             </div>
             <div className="lg:col-span-2 flex align-middle justify-center items-center pt-12">
-              <img
+              <iframe
+                width="853"
+                height="480"
+                src={`https://www.youtube.com/embed/XFanKNquHtw`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+              />
+              {/* <img
                 className="w-[100%] lg:w-[80%] h-96 rounded-lg object-cover object-center aspect-[1/1] lg:aspect-video"
                 src={image1}
                 alt="plants farms"
-              />
+              /> */}
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3">
