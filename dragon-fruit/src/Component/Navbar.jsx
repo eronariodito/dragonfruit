@@ -18,12 +18,12 @@ export default function Navbar() {
           <img src={Logo} class=" h-12" alt="DragonFruit Logo" />
           <p className="text-2xl font-semibold">DragonFruit</p>
         </Link>
-        <button onClick={toggleNavbar} className="inline md:hidden mr-4">
+        <button onClick={toggleNavbar} className="inline lg:hidden mr-4">
           <Menu />
         </button>
         <ul
           className={
-            "hidden items-center space-x-8 mr-4 font-semibold md:flex md:flex-row"
+            "hidden items-center space-x-8 mr-4 font-semibold lg:flex lg:flex-row"
           }
         >
           <li className="hover:text-green-500 h-full">
@@ -59,6 +59,16 @@ export default function Navbar() {
           </li>
           <li className="hover:text-green-500 h-full">
             <NavLink
+              to="/journey"
+              className={({ isActive }) =>
+                isActive ? "text-green-500" : "inactive"
+              }
+            >
+              <button className="h-full">Our Journey</button>
+            </NavLink>
+          </li>
+          <li className="hover:text-green-500 h-full">
+            <NavLink
               to="/about"
               className={({ isActive }) =>
                 isActive ? "text-green-500" : "inactive"
@@ -72,7 +82,7 @@ export default function Navbar() {
       <ul
         onClick={toggleNavbar}
         className={`
-          absolute flex-col justify-center items-center text-center w-full top-16 pb-2 bg-white z-10 mx-auto font-semibold md:hidden ${
+          absolute flex-col justify-center items-center text-center w-full top-16 pb-2 bg-white z-10 mx-auto font-semibold lg:hidden ${
             isOpen ? "translate-y-0" : "-translate-y-full"
           } ease-in-out duration-300`}
       >
@@ -109,6 +119,18 @@ export default function Navbar() {
           >
             <button className="w-full h-full py-2 hover:bg-slate-100">
               Business
+            </button>
+          </NavLink>
+        </li>
+        <li className="hover:text-green-500 hover:bg-gray-100">
+          <NavLink
+            to="/journey"
+            className={({ isActive }) =>
+              isActive ? "text-green-500" : "inactive"
+            }
+          >
+            <button className="w-full h-full py-2 hover:bg-slate-100">
+              Our Journey
             </button>
           </NavLink>
         </li>

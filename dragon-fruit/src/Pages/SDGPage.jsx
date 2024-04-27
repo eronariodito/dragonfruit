@@ -13,17 +13,17 @@ export default function SDGPage() {
           src={image1}
           alt="plants farms"
         />
-        <div className="h-full grid grid-cols-3 relative z-30 text-white font-semibold text-xl md:mx-36 mx-5">
-          <div className="flex flex-col col-span-3 md:col-span-2 justify-center align-middle items-center md:pb-10 text-center md:text-left md:items-start">
-            <p className="md:text-2xl">SUSTAINABLE DEVELOPMENT GOALS</p>
-            <p className="md:pt-4 text-xl md:text-3xl">
-              Welcome to Dragon Fruit, your partner in revolutionizing vertical
-              farming.
+        <div className="h-full grid grid-cols-3 relative z-30 text-white font-semibold text-xl lg:mx-36 mx-5">
+          <div className="flex flex-col col-span-3 lg:col-span-2 justify-center align-middle items-center lg:pb-10 text-center lg:text-left lg:items-start">
+            <p className="lg:text-2xl">SUSTAINABLE DEVELOPMENT GOALS</p>
+            <p className="lg:pt-4 text-xl lg:text-3xl">
+              Dragon Fruit strive to help the world achieve the SDG goals
             </p>
-            <p className="pt-2 text-base md:text-lg">
-              At Dragon Fruit, we are passionate about empowering growers with
-              autonomous environment control technology to cultivate healthy,
-              sustainable crops year-round.
+            <p className="pt-2 text-base lg:text-lg">
+              Here at Dragon Fruit, we're driven by the mission of enabling
+              farmers with cutting-edge sustainable agriculture technologies to
+              foster thriving ecosystems and advance towards achieving the
+              Sustainable Development Goals (SDGs).
             </p>
           </div>
         </div>
@@ -40,12 +40,12 @@ export default function SDGPage() {
         </p> */}
         <div className="flex w-full justify-center pt-10">
           <img
-            className="w-[100%] md:w-[80%] rounded-lg object-cover object-center "
+            className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center "
             src={poster}
             alt="Sensors"
           />
         </div>
-        <div className="grid md:grid-cols-1 pt-10 gap-x-9 gap-y-10">
+        <div className="grid lg:grid-cols-1 pt-10 gap-x-9 gap-y-10">
           <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="flex flex-col justify-center h-full col-span-2 space-y-4">
               <div className="text-left space-y-2">
@@ -90,18 +90,18 @@ export default function SDGPage() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center align-middle pb-10 md:pb-0">
+            <div className="flex flex-col items-center justify-center align-middle pt-10 lg:pb-0">
               <img
-                className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
+                className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center aspect-[1/1] lg:aspect-[9/12]"
                 src={image2}
                 alt="Sensors"
               />
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3">
-            <div className="flex flex-col items-center justify-center align-middle pb-10 md:pb-0">
+            <div className="flex flex-col items-center justify-center align-middle pb-10 lg:pb-0">
               <img
-                className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
+                className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center aspect-[1/1] lg:aspect-[9/12]"
                 src={image3}
                 alt="Sensors"
               />
@@ -177,7 +177,7 @@ export default function SDGPage() {
             </div>
             <div className="flex flex-col items-center justify-center align-middle pt-5 pb-10 lg:pb-0 lg:pt-0">
               <img
-                className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
+                className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center aspect-[1/1] lg:aspect-[9/12]"
                 src={image4}
                 alt="Sensors"
               />

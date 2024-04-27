@@ -10,13 +10,13 @@ export default function BusinessPage() {
           src={image1}
           alt="plants farms"
         />
-        <div className="h-full grid grid-cols-3 relative z-30 text-white font-semibold text-xl md:mx-36 mx-5">
-          <div className="flex flex-col col-span-3 md:col-span-2 justify-center align-middle items-center md:pb-10 text-center md:text-left md:items-start">
-            <p className="md:text-2xl">BUSINESS</p>
-            <p className="md:pt-4 text-xl md:text-3xl">
+        <div className="h-full grid grid-cols-3 relative z-30 text-white font-semibold text-xl lg:mx-36 mx-5">
+          <div className="flex flex-col col-span-3 lg:col-span-2 justify-center align-middle items-center lg:pb-10 text-center lg:text-left lg:items-start">
+            <p className="lg:text-2xl">BUSINESS</p>
+            <p className="lg:pt-4 text-xl lg:text-3xl">
               Growing your plants and our business
             </p>
-            <p className="pt-2 text-base md:text-base lg:text-lg">
+            <p className="pt-2 text-base lg:text-base lg:text-lg">
               Your partner in environmental control needs to be strong and
               healthy. Here is how we ensure our business thrives in uncertain
               times.
@@ -30,12 +30,12 @@ export default function BusinessPage() {
         </p>
         <div className="flex w-full justify-center">
           <img
-            className="w-[100%] md:w-[80%] rounded-lg object-cover object-center "
+            className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center "
             src={bmc}
             alt="Sensors"
           />
         </div>
-        <div className="grid md:grid-cols-1 pt-10 gap-x-9 gap-y-10">
+        <div className="grid lg:grid-cols-1 pt-10 gap-x-9 gap-y-10">
           <div className="text-left space-y-2">
             <p className="text-green-600 text-3xl font-semibold pb-4">
               Value Proposition

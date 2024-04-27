@@ -17,14 +17,14 @@ export default function AboutPage() {
           src={image1}
           alt="plants farms"
         />
-        <div className="h-full grid grid-cols-3 relative z-30 text-white font-semibold text-xl md:mx-36 mx-5">
-          <div className="flex flex-col col-span-3 md:col-span-2 justify-center align-middle items-center md:pb-10 text-center md:text-left md:items-start">
-            <p className="md:text-2xl">ABOUT US</p>
-            <p className="md:pt-4 text-xl md:text-3xl">
+        <div className="h-full grid grid-cols-3 relative z-30 text-white font-semibold text-xl lg:mx-36 mx-5">
+          <div className="flex flex-col col-span-3 lg:col-span-2 justify-center align-middle items-center lg:pb-10 text-center lg:text-left lg:items-start">
+            <p className="lg:text-2xl">ABOUT US</p>
+            <p className="lg:pt-4 text-xl lg:text-3xl">
               Welcome to Dragon Fruit, your partner in revolutionizing vertical
               farming.
             </p>
-            <p className="pt-2 text-base md:text-lg">
+            <p className="pt-2 text-base lg:text-lg">
               At Dragon Fruit, we are passionate about empowering growers with
               autonomous environment control technology to cultivate healthy,
               sustainable crops year-round.
@@ -33,10 +33,10 @@ export default function AboutPage() {
         </div>
       </div>
       <div className="mx-4 lg:mx-28 pt-10 text-gray-600">
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="flex flex-col items-center justify-center align-middle pb-10 md:pb-0">
+        <div className="grid grid-cols-1 lg:grid-cols-3">
+          <div className="flex flex-col items-center justify-center align-middle pb-10 lg:pb-0">
             <img
-              className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
+              className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center aspect-[1/1] lg:aspect-[9/12]"
               src={image2}
               alt="Sensors"
             />
@@ -71,7 +71,7 @@ export default function AboutPage() {
           <p className="text-green-600 text-3xl font-semibold pb-6 pt-10 text-center">
             Meet the Team
           </p>
-          <div className="grid grid-cols-3 md:grid-cols-5 text-center items-start">
+          <div className="grid grid-cols-3 lg:grid-cols-5 text-center items-start">
             <a
               href="https://www.linkedin.com/in/daniele-stella-b93802203/?originalSubdomain=it"
               target="_blank"
@@ -141,7 +141,7 @@ export default function AboutPage() {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 pt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 pt-10">
           <div className="flex flex-col col-span-2 justify-center">
             <p className="text-green-600 text-3xl font-semibold pb-6">
               What We Do
@@ -167,16 +167,16 @@ export default function AboutPage() {
               solution that delivers real results.
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center align-middle pt-10 md:pt-0">
+          <div className="flex flex-col items-center justify-center align-middle pt-10 lg:pt-0">
             <img
-              className="w-[100%] md:w-[80%] rounded-lg object-cover object-center aspect-[1/1] md:aspect-[9/12]"
+              className="w-[100%] lg:w-[80%] rounded-lg object-cover object-center aspect-[1/1] lg:aspect-[9/12]"
               src={image3}
               alt="Sensors"
             />
           </div>
         </div>
         <div className="pt-10">
-          <div className="flex flex-col items-center  text-center md:px-20 pb-10">
+          <div className="flex flex-col items-center  text-center lg:px-20 pb-10">
             <p className="text-green-600 text-3xl font-semibold pb-6">
               Get Started Today!
             </p>
@@ -191,7 +191,7 @@ export default function AboutPage() {
               to="javascript:void(0)"
               onClick={() => (window.location = "mailto:ariodito@kth.se")}
             >
-              <button className="mt-5 md:w-40 rounded-3xl bg-transparent border-green-500 border-2 px-2 py-2 hover:bg-green-500 transition-all ">
+              <button className="mt-5 lg:w-40 rounded-3xl bg-transparent border-green-500 border-2 px-2 py-2 hover:bg-green-500 transition-all ">
                 Contact Us!
               </button>
             </Link>

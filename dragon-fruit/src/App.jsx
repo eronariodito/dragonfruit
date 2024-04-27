@@ -5,6 +5,7 @@ import AboutPage from "./Pages/AboutPage";
 import Navbar from "./Component/Navbar";
 import SDGPage from "./Pages/SDGPage";
 import BusinessPage from "./Pages/BusinessPage";
+import ReportPage from "./Pages/ReportPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/sdg" element={<SDGPage />} />
         <Route path="/business" element={<BusinessPage />} />
+        <Route path="/journey" element={<ReportPage />} />
       </Routes>
     </>
   );

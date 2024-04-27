@@ -3,7 +3,7 @@ import Video from "../Assets/DragonFruitHeader.m4v";
 import { useRef } from "react";
 import image1 from "../Assets/Homepage1.jpg";
 import image2 from "../Assets/Homepage 2.jpg";
-import image3 from "../Assets/Homepage3.jpeg";
+import image3 from "../Assets/homepage3.png";
 import image4 from "../Assets/Real Time.png";
 import ImageSlider from "../Component/ImageSlider";
 import { Link } from "react-router-dom";
@@ -182,7 +182,7 @@ export default function HomePage() {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 text-center ">
+          <div className="grid grid-cols-2 text-left lg:text-center ">
             <div className="flex flex-col justify-center col-span-2 lg:px-20 ">
               <p className="text-green-600 text-3xl font-semibold pb-6">
                 Agathos Interface
